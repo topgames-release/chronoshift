@@ -4,7 +4,7 @@ Chronoshift is a library to manipulate time with timezones
 
 ## Installation
 
-In node simply run: `npm install chronoshift`
+In node simply run: `npm install @topgames/chronoshift`
 
 In the browser you should use the browserified package/chronoshift.js
 
@@ -73,7 +73,7 @@ Useful!
 Clone the repository :
 
 ```
-$ git clone https://github.com/implyio/chronoshift.git
+$ git clone https://github.com/topgames-release/chronoshift.git
 ```
 
 Install the dependencies :
