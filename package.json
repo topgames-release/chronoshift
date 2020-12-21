@@ -1,5 +1,5 @@
 {
-  "name": "chronoshift",
+  "name": "@topgames/chronoshift",
   "version": "0.9.6",
   "description": "A tiny library for shifting time with timezones",
   "keywords": [
@@ -12,13 +12,13 @@
     "8601"
   ],
   "author": {
-    "name": "Vadim Ogievetsky",
-    "url": "http://vadim.ogievetsky.com"
+    "name": "Ying Wang",
+    "url": "http://upcwangying.com"
   },
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "http://github.com/implydata/chronoshift.git"
+    "url": "http://github.com/topgames-release/chronoshift.git"
   },
   "main": "build/index.js",
   "typings": "build/index.d.ts",
@@ -76,5 +76,8 @@
     "ts-loader": "^6.0.4",
     "tslint": "^5.18.0",
     "typescript": "3.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

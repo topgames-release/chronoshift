@@ -38,7 +38,7 @@ export interface TimeShifter extends TimeShifterNoCeil {
 }
 
 function adjustDay(day: number): number {
-  return (day + 6) % 7;
+  return (day + 7) % 7;
 }
 
 function floorTo(n: number, roundTo: number): number {
